@@ -13,14 +13,15 @@ body {
 .hlavicka {
 	background-color: #3498db;
 	color: white;
+	display: flex;
+	justify-content: space-between;
 }
 
 a {
 	display: block;
-	padding: 5px 15px;
+	padding: 18px 15px;
 	color: white;
 	text-decoration: none;
-	height: 60px;
 }
 
 a:hover {
@@ -28,33 +29,28 @@ a:hover {
 	color: #3498db;
 }
 
-/* ---------------------------------------------------- */
-
-.hlavicka {
-	display: flex;
-	justify-content: space-between;
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
 }
 
 .navbar {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	align-items: stretch;
+	height: 100%;
 }
 
 li {
 	list-style-type: none;
-	margin: 1px;
-	padding: 0;
+	display: flex;
 }
 
-.logo {
-	display: flex;
-	padding: 10px 20px;
-	font-size: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	align-items: center;
+ul {
+	margin: 0;
 }
 
-a {
-	display: flex;
-	align-items: center;
-}
+/* ---------------------------------------------------- */
